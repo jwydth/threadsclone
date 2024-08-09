@@ -9,6 +9,7 @@ import {
   Button,
 } from "@chakra-ui/react";
 import { BsThreeDots } from "react-icons/bs";
+import Comment from "../Components/Comments";
 
 const PostPage = () => {
   return (
@@ -67,6 +68,8 @@ const PostPage = () => {
       </Flex>
 
       <Divider my={4} />
+
+      <Comment />
     </>
   );
 };
